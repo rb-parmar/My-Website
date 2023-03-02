@@ -69,6 +69,7 @@ header nav ul li a:hover {
   header nav ul li { display: none;}
 }
 
+.show { display:block; }
 /*-----------------------------------------------------*/
 /* Main                                                */
 /*-----------------------------------------------------*/
@@ -78,7 +79,7 @@ header nav ul li a:hover {
 .hero {
   margin-top: 1px;
   height: 100vh;
-  background: #000 url("../images/herobanner.jpg") center / cover no-repeat;
+  background: #000 url("../images/abstract.jpg") center / cover no-repeat;
 }
 
 .hero .container {
@@ -146,6 +147,13 @@ font-size: 24px;
   height: 300px;
 }
 
+.me {
+  border: #474747 solid 0.5px;
+  border-radius: 10px;
+  padding: 15px 15px 40px 15px;
+  background-color: #fff;
+}
+
 .me h2 {
   font-size: 28px;
   text-align: center;
@@ -161,6 +169,54 @@ font-size: 24px;
   margin-top: 15px;
 }
 
+/*----Contact-me section------------------------------------------*/
+
+.contact-me {
+  height: 300px;
+  background-color: #f1f1f1;
+}
+
+.contact-me .container {
+  display: grid;
+  place-items: center;
+  height: 250px;
+}
+
+.contact {
+  border: #474747 solid 0.5px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.contact p {
+  text-align: center;
+  margin: 0 15px;
+}
+
+.contact .or {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.contact nav ul {
+  text-align: center;
+}
+.contact nav ul li .fa-brands {
+  height: 40px;
+  width: 40px;
+  color: #000;
+  background-color: #fff;
+  border: #272727 solid 0.5px;
+  font-size: 20px;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact nav ul li .fa-brands:hover {
+  background-color: #00D1C6;
+}
 /*-----------------------------------------------------*/
 /* Footer                                              */
 /*-----------------------------------------------------*/
